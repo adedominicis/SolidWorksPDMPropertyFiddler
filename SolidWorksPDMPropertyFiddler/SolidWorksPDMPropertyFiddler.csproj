@@ -33,11 +33,11 @@
   <ItemGroup>
     <Reference Include="EPDM.Interop.epdm">
       <HintPath>..\..\INTEROPS\EPDM.Interop.epdm.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="EPDM.Interop.EPDMResultCode">
       <HintPath>..\..\INTEROPS\EPDM.Interop.EPDMResultCode.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

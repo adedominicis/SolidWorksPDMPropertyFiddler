@@ -2,12 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SolidWorksPDMPropertyFiddler
 {
+    [Guid("F28DF6F0-EB05-491A-B484-32F481B289B7"), ComVisible(true)]
     public class HookSetup : IEdmAddIn5
     {
         private EdmVault5 thisVault;
